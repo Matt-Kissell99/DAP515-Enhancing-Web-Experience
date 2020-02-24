@@ -1,0 +1,11 @@
+// Atoms
+//
+// Atoms are the basic building blocks of matter. Applied to web interfaces, atoms are our HTML
+// tags, such as a form label, an input or a button. They’re fairly abstract and often not terribly
+// useful on their own. However, they’re good as a reference in the context of a pattern library as
+// you can see all your global styles laid out at a glance.
+//
+@import './buttons';
+@import './headings';
+@import './links';
+

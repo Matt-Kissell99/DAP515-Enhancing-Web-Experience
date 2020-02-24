@@ -1,0 +1,12 @@
+.siteforceThemeLayoutStarter .forceCommunityThemeHeaderHelpCenter {
+  padding-left: $viewport-content-spacing !important;
+  padding-right: $viewport-content-spacing !important;
+ }
+.forceCommunityThemeHeaderHelpCenter .themeHeaderInner {
+  padding: 0 !important;
+}
+
+.header__inner {
+  align-items: center;
+  padding: $spacing-small $spacing-medium;
+}

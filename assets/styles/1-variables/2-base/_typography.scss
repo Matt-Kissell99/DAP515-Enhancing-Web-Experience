@@ -1,0 +1,38 @@
+
+// Font weights
+$font-weight-light: 300 !default;
+$font-weight-medium: 400 !default;
+$font-weight-bold: 700 !default;
+
+// Font-sizes
+$font-size-xsmall: 1.4rem !default;
+$font-size-small:  1.6rem !default;      // small
+$font-size-medium: 1.8rem !default;      // base
+$font-size-large:  2.1rem !default;      // heading--tertiary
+$font-size-xlarge:  2.4rem !default;     // heading--secondary & text large
+// $font-size-xxlarge:  28px !default;   // removed as unneccessary
+$font-size-xxlarge:  3.6rem !default;    // heading--primary--small
+$font-size-xxxlarge:  4.8rem !default;   // heading--primary
+$font-size-xxxxlarge:  6.4rem !default;  // heading--giant
+
+/*
+ ******************
+ USAGE VARIABLES
+ ******************
+*/
+
+// Heading sizes
+$heading-font-size-hero: $font-size-xxxxlarge !default;
+$heading-font-size-hero-subheading: $font-size-xxlarge !default;
+
+$heading-font-size-primary-small: $font-size-xxlarge !default;
+$heading-font-size-primary: $font-size-xxxlarge !default;
+$heading-font-size-secondary: $font-size-xlarge !default;
+$heading-font-size-tertiary: $font-size-large !default;
+$heading-font-size-quaternary: $font-size-medium !default;
+
+// Text sizes
+$font-size-xsmall: $font-size-xsmall !default;
+$text-size-small: $font-size-small !default;
+$text-size-default: $font-size-medium !default;
+$text-size-large: $font-size-xlarge !default;
