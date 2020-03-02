@@ -1,15 +1,52 @@
 .banner {
-  background-color: black;
+  background-color: $lbsc-background-grey;
   display: flex;
+  align-items: center;
   width: 100%;
-  height: 100px;
+  height: 60px;
 }
 
 .banner__image {
-  max-width: 150px;
   flex-grow: 1;
+  color: red;
+
+  img {
+    max-width: 250px;
+    height: 60px;
+  }
 }
 
 .banner__navigation-container {
+  overflow: hidden;
+}
 
+.banner__navigation-container a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: $lbsc-navigation-borders;
+  border-radius: $lbsc-navigation-border-radius;
+  margin-left: $spacing-small;
+  margin-right: $spacing-small;
+}
+
+/* Change the color of links on hover */
+.banner__navigation-container a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.banner__navigation-container a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.banner__navigation-container .icon {
+  display: none;
 }
