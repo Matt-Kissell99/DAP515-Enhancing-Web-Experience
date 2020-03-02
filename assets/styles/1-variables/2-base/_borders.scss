@@ -1,4 +1,9 @@
 // BORDER PROPERTIES
+body {
+  margin: 0;
+}
 
+$lbsc-navigation-borders: 2px solid $lbsc-white;
 
 // BORDER RADIUS
+$lbsc-navigation-border-radius: 6px;

@@ -34,19 +34,16 @@
   margin-right: $spacing-small;
 }
 
-/* Change the color of links on hover */
 .banner__navigation-container a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add an active class to highlight the current page */
 .banner__navigation-container a.active {
   background-color: #4CAF50;
   color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
 .banner__navigation-container .icon {
   display: none;
 }
