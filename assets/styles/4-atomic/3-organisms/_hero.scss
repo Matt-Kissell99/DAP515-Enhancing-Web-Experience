@@ -1,0 +1,20 @@
+.hero__background {
+  background: $lbsc-blue-background;
+}
+
+.hero__image {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.hero__card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.hero__grid {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+}
