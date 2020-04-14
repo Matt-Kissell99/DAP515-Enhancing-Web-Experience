@@ -1,7 +1,8 @@
-.tick-list {
-  list-style-image: url('/assets/images/green-tick.png');
+.tick-list li:before {
+  content: '✓ ';
 }
 
 .tick-list li {
   margin: $spacing-small 0;
+  list-style-type: none;
 }
