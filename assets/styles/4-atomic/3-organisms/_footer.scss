@@ -15,14 +15,17 @@
   width: 100%;
 }
 
+.footer__navigation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .footer__navigation a {
-  float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   font-size: 17px;
-  margin-top: $spacing-small;
 }
 
 .banner__navigation-container a:hover {
