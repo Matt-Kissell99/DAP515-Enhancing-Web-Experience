@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>LBSC | Home</title>
+	<link rel="stylesheet" type="text/css" href="../dist/styles.css">
+</head>
+
+<body>
+	<div id="headerContainer" class="banner">
+		<div id="headerLogo" class="banner__image">
+			<img src="../assets/images/lbsc-header-logo.gif" alt="Littlehampton Badminton & Squash Club Logo" />
+		</div>
+
+		<div id="headerNavigation" class="banner__navigation-container">
+			<a href="/">Home</a>
+			<a href="/">Badminton</a>
+			<a href="/">Squash</a>
+			<a href="/">Social</a>
+			<a href="/">Facilities</a>
+			<a href="/">About us</a>
+		</div>
+	</div>
+
+	<div id="homeContainer">
+		<form>
+			<div>
+				<label for="firstName" class="form__label required-field">Full name:</label>
+				<input id="firstName" maxlength="80" name="name" size="20" type="text" required="true" />
+			</div>
+
+			<div>
+				<label for="contactNumber" class="form__label required-field">Contact Number:</label>
+				<input id="lastName" maxlength="80" name="name" size="11" type="text" required="true" />
+			</div>
+
+			<div>
+				<label for="email" class="form__label required-field">Email:</label>
+				<input id="email" maxlength="80" name="name" size="20" type="email" required="true" />
+			</div>
+
+			<div>
+				<label for="email" class="form__label required-field">Email:</label>
+				<input id="email" maxlength="80" name="name" size="20" type="text" required="true" />
+			</div>
+
+			<div>
+				<label for="email" class="form__label required-field">Are you a member?</label>
+				<input type='radio' name='memberCheck' value='Yes'> Yes
+				<input type='radio' name='memberCheck' value='No'>No
+			</div>
+
+			<div>
+				<label for="email" class="form__label required-field">Are you a member?</label>
+				<input id="email" maxlength="80" name="name" size="20" type="text" required="true" />
+			</div>
+
+			<hr class="separator" />
+
+			<div>
+				<label for="facilitiesRequired" class="form__label required-field">Facilities required:</label>
+
+				<select class="form-dropdown validate[required] form-validation-error" id="input_6" name="q6_facilitiesRequired" style="width:150px" data-component="dropdown" required="" aria-labelledby="label_6 sublabel_input_6">
+					<option value="">  </option>
+					<option value="Lounge"> Lounge </option>
+					<option value="Bar"> Bar </option>
+					<option value="Kitchen"> Kitchen </option>
+					<option value="Badminton Court(s)"> Badminton Court(s) </option>
+					<option value="Squash Courts(s)"> Squash Courts(s) </option>
+				</select>
+			</div>
+
+			<div>
+				<label for="eventDate" class="form__label required-field">Date of event:</label>
+				<input type="date" id="eventDate" name="eventDate" />
+			</div>
+
+			<div>
+				<label for="eventTime" class="form__label required-field">Time of event:</label>
+				<input type="time" id="eventTime" name="eventTime" />
+			</div>
+
+			<div>
+				<label for="guestNumber" class="form__label required-field">Number of Guests:</label>
+				<input type="number" id="guestNumber" name="guestNumber" />
+			</div>
+
+			<div>
+				<label for="otherRequest" class="form__label">Any other requests?:</label>
+				<textarea id="otherRequest" name="otherRequest" cols="40" rows="5"></textarea>
+			</div>
+		</form>
+	</div>
+
+		<div class="footer__container padding--left--large padding--right--large">
+		<div class="footer__image">
+			<img class="footer__image" src="../assets/images/lbsc-header-logo.gif" alt="Logo for Littlehampton Badminton and Squash Club">
+		</div>
+
+		<div class="footer__navigation">
+			<div class="footer__navigation-item">
+				<h3>Badminton</h3>
+				<ul>
+					<li><a href="/">Sessions</a></li>
+					<li><a href="/">Competitive Play</a></li>
+					<li><a href="/">Coaching</a></li>
+				</ul>
+			</div>
+
+			<div class="footer__navigation-item">
+				<h3>Squash</h3>
+				<ul>
+					<li><a href="/">Sessions</a></li>
+					<li><a href="/">Competitive Play</a></li>
+					<li><a href="/">Coaching</a></li>
+				</ul>
+			</div>
+
+			<div class="footer__navigation-item">
+				<h3>Social</h3>
+				<ul>
+					<li><a href="/">Bar hire</a></li>
+					<li><a href="/">Social events</a></li>
+					<li><a href="/">Social pictures</a></li>
+				</ul>
+			</div>
+
+			<div class="footer__navigation-item">
+				<h3>About us</h3>
+				<ul>
+					<li><a href="/">The club</a></li>
+					<li><a href="/">Location</a></li>
+					<li><a href="/">Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer__social-icons margin--top--medium">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+		</div>
+
+		<hr class="separator" />
+
+		<div class="footer__copyright margin--top--medium">
+			<p>Copyright &#169; Littlehampton Badminton and Squash Club</p>
+		</div>
+	</div>
+
+	<div id="callButton">
+		<a href="tel:01903 713217" class="card-cta-button call__button-background">Get in touch with us!</a>
+	</div>
+</body>
+</html>
