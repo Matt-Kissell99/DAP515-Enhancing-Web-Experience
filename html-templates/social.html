@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>LBSC | Social</title>
+    <link rel="stylesheet" type="text/css" href="../dist/styles.css">
+    <script type="application/javascript" src="../dist/javascript/filter.js"></script>
+</head>
+
+<body>
+<div id="headerContainer" class="banner">
+    <div id="headerLogo" class="banner__image">
+        <img src="../assets/images/lbsc-header-logo.gif" alt="Littlehampton Badminton & Squash Club Logo" />
+    </div>
+
+    <div id="headerNavigation" class="banner__navigation-container">
+        <a href="/">Home</a>
+        <a href="/">Badminton</a>
+        <a href="/">Squash</a>
+        <a href="/">Social</a>
+        <a href="/">Facilities</a>
+        <a href="/">About us</a>
+    </div>
+</div>
+
+<div id="homeContainer" class="lbsc__form-container two-cols-container">
+    <div id="formContainer" class="lbsc__form-content two-cols-container content-col">
+        <div>
+            <h2>Social Events</h2>
+            <p>Here at Littlehampton Badminton and Squash Club we aim to deliver fun community events every two weeks.</p>
+
+            <div class="lbsc__form-section">
+                <div class="lbsc__form-questions">
+                    <h2>Upcoming Events:</h2>
+
+                    <div class="social__filter">
+                        <button id="allButton" class="social__button" onclick="toggleSocialFilter('allButton', 'allContent', true)">All</button>
+                        <button id="badmintonButton" class="social__button" onclick="toggleSocialFilter('badmintonButton', 'badmintonContent', false)">Badminton</button>
+                        <button id="squashButton" class="social__button" onclick="toggleSocialFilter('squashButton', 'squashContent', false)">Squash</button>
+                        <button id="tableTennisButton" class="social__button" onclick="toggleSocialFilter('tableTennisButton', 'tableTennisContent', false)">Table Tennis</button>
+                        <button id="dartsButton" class="social__button" onclick="toggleSocialFilter('dartsButton', 'dartsContent', false)">Darts</button>
+                    </div>
+
+                    <div id="upcomingEvents">
+                        <div id="allContent">
+                            <p>All</p>
+                            <div id="" class="social__event-card">
+                                <div class="card-group--social grid grid--cols-3">
+                                    <div class="flex-card">
+                                        <img class="social__calendar-icon" src="../assets/images/calendar.jpg">
+                                        <h3>Darts Tournament</h3>
+                                        <div>
+                                            <p><strong>Date:</strong> 22nd June 2020</p>
+                                            <p><strong>Time:</strong> 4pm - 9pm</p>
+                                            <p><strong>Eligibility:</strong> Anyone</p>
+                                            <p><strong>Entry fee:</strong> &#163;2</p>
+                                            <button class="social__event-button">Find out more</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex-card">
+                                        <img class="social__calendar-icon" src="../assets/images/calendar.jpg">
+                                        <h3>Darts Tournament</h3>
+                                        <div>
+                                            <p><strong>Date:</strong> 22nd June 2020</p>
+                                            <p><strong>Time:</strong> 4pm - 9pm</p>
+                                            <p><strong>Eligibility:</strong> Anyone</p>
+                                            <p><strong>Entry fee:</strong> &#163;2</p>
+                                            <button class="social__event-button">Find out more</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex-card">
+                                        <img class="social__calendar-icon" src="../assets/images/calendar.jpg">
+                                        <h3>Darts Tournament</h3>
+                                        <div>
+                                            <p><strong>Date:</strong> 22nd June 2020</p>
+                                            <p><strong>Time:</strong> 4pm - 9pm</p>
+                                            <p><strong>Eligibility:</strong> Anyone</p>
+                                            <p><strong>Entry fee:</strong> &#163;2</p>
+                                            <button class="social__event-button">Find out more</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex-card">
+                                        <img class="social__calendar-icon" src="../assets/images/calendar.jpg">
+                                        <h3>Darts Tournament</h3>
+                                        <div>
+                                            <p><strong>Date:</strong> 22nd June 2020</p>
+                                            <p><strong>Time:</strong> 4pm - 9pm</p>
+                                            <p><strong>Eligibility:</strong> Anyone</p>
+                                            <p><strong>Entry fee:</strong> &#163;2</p>
+                                            <button class="social__event-button">Find out more</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex-card">
+                                        <img class="social__calendar-icon" src="../assets/images/calendar.jpg">
+                                        <h3>Darts Tournament</h3>
+                                        <div>
+                                            <p><strong>Date:</strong> 22nd June 2020</p>
+                                            <p><strong>Time:</strong> 4pm - 9pm</p>
+                                            <p><strong>Eligibility:</strong> Anyone</p>
+                                            <p><strong>Entry fee:</strong> &#163;2</p>
+                                            <button class="social__event-button">Find out more</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex-card">
+                                        <img class="social__calendar-icon" src="../assets/images/calendar.jpg">
+                                        <h3>Darts Tournament</h3>
+                                        <div>
+                                            <p><strong>Date:</strong> 22nd June 2020</p>
+                                            <p><strong>Time:</strong> 4pm - 9pm</p>
+                                            <p><strong>Eligibility:</strong> Anyone</p>
+                                            <p><strong>Entry fee:</strong> &#163;2</p>
+                                            <button class="social__event-button">Find out more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="badmintonContent" style="display: none;">
+                            <p>Badminton</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lbsc__form-section">
+                <div class="lbsc__form-questions">
+                    <h2>Past Event Pictures</h2>
+
+                    <div id="socialCards" class="card-group--social grid grid--cols-3">
+                        <div class="flex-card">
+                            <img style="height: 100px; width: 150px;" src="../assets/images/badminton-england-logo.png" />
+                        </div>
+
+                        <div class="flex-card">
+                            <img style="height: 100px; width: 150px;" src="../assets/images/badminton-england-logo.png" />
+                        </div>
+
+                        <div class="flex-card">
+                            <img style="height: 100px; width: 150px;" src="../assets/images/badminton-england-logo.png" />
+                        </div>
+
+                        <div class="flex-card">
+                            <img style="height: 100px; width: 150px;" src="../assets/images/badminton-england-logo.png" />
+                        </div>
+
+                        <div class="flex-card">
+                            <img style="height: 100px; width: 150px;" src="../assets/images/badminton-england-logo.png" />
+                        </div>
+
+                        <div class="flex-card">
+                            <img style="height: 100px; width: 150px;" src="../assets/images/badminton-england-logo.png" />
+                        </div>
+
+                        <div class="flex-card">
+                            <img style="height: 100px; width: 150px;" src="../assets/images/badminton-england-logo.png" />
+                        </div>
+
+                        <div class="flex-card">
+                            <img style="height: 100px; width: 150px;" src="../assets/images/badminton-england-logo.png" />
+                        </div>
+
+                        <div class="flex-card">
+                            <img style="height: 100px; width: 150px;" src="../assets/images/badminton-england-logo.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sidebarContent" class="grid sidebar-col">
+        <div id="generalEnquiries" class="lbsc__form-info-box">
+            <h3>General Enquiries</h3>
+            <p>Should you require any information regarding how the club operates and what services are provided please don't hesitate to get in contact with us.</p>
+            <p>General enquiries can be found by calling <a href="tel:01903 713217">01903 713217</a>.</p>
+            <p>Alternatively, you can email <a href="mailto:hello@lbsc.org.uk">hello@lbsc.org.uk</a> as well</p>
+        </div>
+
+        <div id="openingHours" class="lbsc__form-info-box">
+            <h3>Club Opening Times</h3>
+
+            <p>Monday-Friday</p>
+            <p>9.00-23.00</p>
+
+            <p>Saturday & Sunday<p>
+            <p>9.00-17.00</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer__container padding--left--large padding--right--large">
+    <div class="footer__navigation">
+        <div class="footer__navigation-item">
+            <h3>Badminton</h3>
+            <ul>
+                <li><a href="/">Sessions</a></li>
+                <li><a href="/">Competitive Play</a></li>
+                <li><a href="/">Coaching</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__navigation-item">
+            <h3>Squash</h3>
+            <ul>
+                <li><a href="/">Sessions</a></li>
+                <li><a href="/">Competitive Play</a></li>
+                <li><a href="/">Coaching</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__navigation-item">
+            <h3>Social</h3>
+            <ul>
+                <li><a href="/">Bar hire</a></li>
+                <li><a href="/">Social events</a></li>
+                <li><a href="/">Social pictures</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__navigation-item">
+            <h3>About us</h3>
+            <ul>
+                <li><a href="/">The club</a></li>
+                <li><a href="/">Location</a></li>
+                <li><a href="/">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer__social-icons margin--top--medium">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+    </div>
+
+    <hr class="separator" />
+
+    <div class="footer__copyright margin--top--medium">
+        <p>Copyright &#169; Littlehampton Badminton and Squash Club</p>
+    </div>
+</div>
+
+<div id="callButton">
+    <a href="tel:01903 713217" class="card-cta-button call__button-background">Get in touch with us!</a>
+</div>
+</body>
+</html>
