@@ -18,12 +18,29 @@
   height: 30px;
 }
 
+.lbsc__form input,
+  select,
+  textarea {
+    margin-top: $spacing-small;
+    margin-bottom: $spacing-small;
+  }
+
 .lbsc__form-section {
   border: 1px solid #bbb;
   border-radius: 4px;
   margin-top: $spacing-large;
   margin-bottom: $spacing-large;
   padding: $spacing-medium;
+}
+
+.lbsc__form-info-box {
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  margin-top: $spacing-large;
+  margin-bottom: $spacing-large;
+  max-height: 300px;
+  width:300px;
+  padding: $spacing-small;
 }
 
 .lbsc__form-questions {

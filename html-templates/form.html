@@ -31,6 +31,10 @@
 			<form class="lbsc__form">
 				<div class="lbsc__form-section">
 					<div class="lbsc__form-questions">
+						<h2>Personal information:</h2>
+					</div>
+
+					<div class="lbsc__form-questions">
 						<label for="firstName" class="form__label required-field">Full name:</label>
 						<input id="firstName" maxlength="80" name="name" size="20" type="text" required="true" />
 					</div>
@@ -55,7 +59,11 @@
 
 				<div class="lbsc__form-section">
 					<div class="lbsc__form-questions">
-						<label for="facilitiesRequired" class="form__label required-field">Facilities required:</label>
+						<h2>Facility details:</h2>
+					</div>
+
+					<div class="lbsc__form-questions">
+						<label for="facilitiesRequired" class="form__label required-field block">Facilities required:</label>
 
 						<select class="form-dropdown validate[required] form-validation-error" id="facilitiesRequired" name="q6_facilitiesRequired" style="width:150px" data-component="dropdown" required="" aria-labelledby="label_6 sublabel_input_6">
 							<option value="">  </option>
@@ -69,6 +77,10 @@
 				</div>
 
 				<div class="lbsc__form-section">
+					<div class="lbsc__form-questions">
+						<h2>Event requirements:</h2>
+					</div>
+
 					<div class="lbsc__form-questions">
 						<label for="eventDate" class="form__label required-field">Date of event:</label>
 						<input type="date" id="eventDate" name="eventDate" />
@@ -87,18 +99,28 @@
 
 				<div class="lbsc__form-section">
 					<div class="lbsc__form-questions">
-						<label for="otherRequest" class="form__label">Any other requests?:</label>
+						<h2>Other:</h2>
+					</div>
+
+					<div class="lbsc__form-questions">
+						<label for="otherRequest" class="form__label block">Any other requests?:</label>
 						<textarea id="otherRequest" name="otherRequest" cols="40" rows="5"></textarea>
 					</div>
+				</div>
+
+				<div>
+					<input type="submit" class="card-cta-button call__button-background" style="width: 50%; margin-right: 50%; margin-left: 50%;" value="Submit hire form" />
 				</div>
 			</form>
 			</div>
 		</div>
 
 		<div id="sidebarContent" class="two-cols-container sidebar-col">
-			<div id="generalEnquiries">
+			<div id="generalEnquiries" class="lbsc__form-info-box">
 				<h3>General Enquiries</h3>
-				<p>This is for general enquiries</p>
+				<p>Should you require any information regarding how the club operates and what services are provided please don't hesitate to get in contact with us.</p>
+				<p>General enquiries can be found by calling <a href="tel:01903 713217">01903 713217</a>.</p>
+				<p>Alternatively, you can email <a href="mailto:hello@lbsc.org.uk">hello@lbsc.org.uk</a> as well</p>
 			</div>
 		</div>
 	</div>
