@@ -6,3 +6,13 @@
   margin: $spacing-small 0;
   list-style-type: none;
 }
+
+.event-list li:before {
+  content: '';
+}
+
+.event-list li {
+  margin: $spacing-small 0;
+  padding: inherit;
+  list-style-type: none;
+}

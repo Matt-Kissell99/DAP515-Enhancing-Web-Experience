@@ -1,0 +1,21 @@
+.social__button {
+  border-radius: 4px;
+  border: 2px solid black;
+  padding: $spacing-small;
+  width: 120px;
+}
+
+.social__event-button {
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid black;
+  padding: $spacing-small;
+}
+
+.social__calendar-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 70px;
+}
