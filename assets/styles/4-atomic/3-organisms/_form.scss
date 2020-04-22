@@ -1,6 +1,6 @@
 .lbsc__form-container {
   margin: 0 auto;
-  max-width: 1140px;
+  max-width: 1250px;
   padding: 0 2%;
   width: 96%;
 }
@@ -33,6 +33,18 @@
   padding: $spacing-medium;
 }
 
+.lbsc__section {
+  margin-top: $spacing-small;
+  margin-bottom: $spacing-small;
+  padding: $spacing-small $spacing-small $spacing-small 0;
+}
+
+.lbsc__section-content {
+  padding: 0 $spacing-medium 0 0;
+  margin-top: $spacing-small;
+  margin-bottom: $spacing-small;
+}
+
 .lbsc__form-info-box {
   border: 1px solid #bbb;
   border-radius: 4px;
@@ -51,7 +63,7 @@
 
 @media only screen and (min-width: 720px) {
   .two-cols-container .content-col {
-    order: 1;
+    order: 2;
     flex-grow: 1;
     flex-shrink: 1;
     overflow-x: auto;
@@ -67,8 +79,9 @@
  .sidebar-col {
   flex-grow: 0;
   flex-shrink: 0;
-  order: 2;
+  order: 1;
   width: 250px;
+   margin-right: 100px;
   }
 
   .two-cols-container {
