@@ -1,3 +1,19 @@
+ .sidebar-col {
+  flex-grow: 0;
+  flex-shrink: 0;
+  order: 2;
+  width: 100%;
+  margin-right: 100px;
+}
+
+.two-cols-container .content-col {
+  order: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow-x: auto;
+  padding-right: 5rem;
+}
+
 .lbsc__form-container {
   margin: 0 auto;
   max-width: 1250px;
@@ -51,7 +67,6 @@
   margin-top: $spacing-large;
   margin-bottom: $spacing-large;
   max-height: 300px;
-  width:250px;
   padding: $spacing-small;
 }
 
@@ -81,10 +96,20 @@
   flex-shrink: 0;
   order: 1;
   width: 250px;
-   margin-right: 100px;
+  margin-right: 100px;
   }
 
   .two-cols-container {
     display: flex;
   }
+
+  .lbsc__form-info-box {
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    margin-top: $spacing-large;
+    margin-bottom: $spacing-large;
+    max-height: 300px;
+    width:250px;
+    padding: $spacing-small;
+}
 }
