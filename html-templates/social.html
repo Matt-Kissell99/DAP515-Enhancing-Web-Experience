@@ -5,6 +5,8 @@
     <title>LBSC | Social</title>
     <link rel="stylesheet" type="text/css" href="../dist/styles.css">
     <script type="text/javascript" src="../dist/javascript/nav-menu.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="application/javascript" src="../dist/javascript/filter.js"></script>
 </head>
@@ -51,11 +53,20 @@
 
 <div id="homeContainer" class="lbsc__form-container two-cols-container">
     <div id="sidebarContent" class="sidebar-col">
+        <div id="socialPages" class="lbsc__form-info-box">
+            <h3>Follow us on Social Media</h3>
+            <p>The club has social media pages for you to follow</p>
+            <p>Following these pages gives you the best chance to keep up to date on all things social</p>
+            <i class="fab fa-facebook-square"></i>
+        </div>
+
         <div id="generalEnquiries" class="lbsc__form-info-box">
             <h3>General Enquiries</h3>
             <p>Should you require any information regarding how the club operates and what services are provided please don't hesitate to get in contact with us.</p>
-            <p>General enquiries can be found by calling <a href="tel:01903 713217">01903 713217</a>.</p>
-            <p>Alternatively, you can email <a href="mailto:hello@lbsc.org.uk">hello@lbsc.org.uk</a> as well</p>
+            <p>General enquiries can be answered by calling us</p>
+            <a href="tel:01903 713217" class="card-cta-button call__button-background">Call the Club</a>
+            <p>Alternatively, you can email as well at anytime</p>
+            <a href="mailto:hello@lbsc.org.uk" class="card-cta-button call__button-background">Email the Club</a>
         </div>
 
         <div id="openingHours" class="lbsc__form-info-box">
@@ -70,26 +81,26 @@
     </div>
 
     <div id="formContainer" class="lbsc__form-content two-cols-container content-col">
-        <div>
-            <h2>Social Events</h2>
+        <div class="full-width">
+            <h1>Social Events</h1>
             <p>Here at Littlehampton Badminton and Squash Club we aim to deliver fun community events every two weeks.</p>
 
-            <div class="lbsc__section">
+            <div class="lbsc__section full-width">
                 <div class="lbsc__section-content">
                     <h2>Upcoming Events:</h2>
 
                     <div class="social__filter">
-                        <button id="allButton" class="social__button" onclick="toggleSocialFilter('allButton', 'allContent', true)">All</button>
-                        <button id="badmintonButton" class="social__button" onclick="toggleSocialFilter('badmintonButton', 'badmintonContent', false)">Badminton</button>
-                        <button id="squashButton" class="social__button" onclick="toggleSocialFilter('squashButton', 'squashContent', false)">Squash</button>
-                        <button id="tableTennisButton" class="social__button" onclick="toggleSocialFilter('tableTennisButton', 'tableTennisContent', false)">Table Tennis</button>
-                        <button id="dartsButton" class="social__button" onclick="toggleSocialFilter('dartsButton', 'dartsContent', false)">Darts</button>
+                        <button id="allButton" class="social__button call__button-background" >All</button>
+                        <button id="badmintonButton" class="social__button">Badminton</button>
+                        <button id="squashButton" class="social__button">Squash</button>
+                        <button id="tableTennisButton" class="social__button">Table Tennis</button>
+                        <button id="dartsButton" class="social__button">Darts</button>
                     </div>
 
-                    <div id="upcomingEvents" class="margin--top--medium">
+                    <div id="upcomingEvents" class="margin--top--medium full-width">
                         <div id="allContent">
-                            <div class="social__event-card">
-                                <div class="card-group--social grid grid--cols-3">
+                            <div class="social__event-card full-width">
+                                <div class="card-group--social grid grid--cols-3 full-width">
                                     <div class="flex-card">
                                         <img class="social__calendar-icon" src="../assets/images/calendar.jpg">
                                         <h3>Darts Tournament</h3>
@@ -256,11 +267,6 @@
                 <li><a href="/">Contact us</a></li>
             </ul>
         </div>
-    </div>
-
-    <div class="footer__social-icons margin--top--medium">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
     </div>
 
     <hr class="separator" />
