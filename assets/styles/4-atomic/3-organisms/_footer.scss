@@ -25,7 +25,6 @@
   color: #f2f2f2;
   text-align: left;
   text-decoration: none;
-  font-size: 17px;
 }
 
 .banner__navigation-container a:hover {
@@ -40,6 +39,7 @@
 
 .footer__navigation-item {
   flex-grow: 1;
+  color: #f2f2f2;
 }
 
 .footer__social-icons {
@@ -49,4 +49,8 @@
 
 .footer__copyright {
   margin-top: 20px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
 }
