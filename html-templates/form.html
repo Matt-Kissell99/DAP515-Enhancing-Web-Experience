@@ -4,8 +4,12 @@
 <head>
 	<title>LBSC | Hire Facilities</title>
 	<link rel="stylesheet" type="text/css" href="../dist/styles.css">
-	<script type="text/javascript" src="../dist/javascript/nav-menu.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="text/javascript" src="../dist/javascript/nav-menu.js"></script>
 	<script type="application/javascript" src="../dist/javascript/filter.js"></script>
 </head>
 
@@ -141,33 +145,71 @@
 						</div>
 					</div>
 
+					<div class="checkbox-container">
+						<input type="checkbox" id="termsAndConditions" value="accept-terms" name="user-terms" required>
+						<label for="termsAndConditions">I accept the terms and conditions about data usage by Littlehampton Badminton and Squash Club</label>
+					</div>
+
+					<div class="checkbox-container">
+						<input type="checkbox" id="furtherCommunications" value="accept-communication" name="user-age">
+						<label for="furtherCommunications">I wish to opt in for the Littlhampton Badminton and Squash Club official newsletter</label>
+					</div>
+
 					<input type="submit" class="card-cta-button call__button-background" value="Submit hire form" />
 				</form>
 			</div>
 		</div>
 
 		<div id="sidebarContent" class="sidebar-col">
+			<div id="courts" class="lbsc__form-info-box">
+				<h3>Looking to reserve courts?</h3>
+				<p>We offer courts alongside a dedicated court booking system</p>
+
+				<p>Book in advanced to guarantee court time</p>
+				<a href="" class="card-cta-button call__button-background">
+					<i class="fas fa-plus margin--right--small"></i>
+					Book courts
+				</a>
+			</div>
+			<div id="socialPages" class="lbsc__form-info-box">
+				<h3>Follow us on Social Media</h3>
+				<p>The club has social media pages for you to follow</p>
+				<p>Following these pages gives you the best chance to keep up to date on all things social</p>
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-twitter margin--left--medium"></i>
+				<i class="fab fa-instagram-square margin--left--medium"></i>
+				<i class="fab fa-youtube margin--left--medium"></i>
+			</div>
+
 			<div id="generalEnquiries" class="lbsc__form-info-box">
 				<h3>General Enquiries</h3>
 				<p>Should you require any information regarding how the club operates and what services are provided please don't hesitate to get in contact with us.</p>
-				<p>General enquiries can be found by calling <a href="tel:01903 713217">01903 713217</a>.</p>
-				<p>Alternatively, you can email <a href="mailto:hello@lbsc.org.uk">hello@lbsc.org.uk</a> as well</p>
+				<p>General enquiries can be answered by calling us</p>
+
+				<a href="tel:01903 713217" class="card-cta-button call__button-background">
+					<i class="fas fa-phone-alt margin--right--small"></i>
+					Call the Club
+				</a>
+				<p>Alternatively, you can email as well at anytime</p>
+				<a href="mailto:hello@lbsc.org.uk" class="card-cta-button call__button-background">
+					<i class="fas fa-envelope margin--right--small"></i>
+					Email the Club
+				</a>
 			</div>
 
-			<div id="openingHoursh" class="lbsc__form-info-box">
-				<h3>General Enquiries</h3>
-				<p>Should you require any information regarding how the club operates and what services are provided please don't hesitate to get in contact with us.</p>
-				<p>General enquiries can be found by calling <a href="tel:01903 713217">01903 713217</a>.</p>
-				<p>Alternatively, you can email <a href="mailto:hello@lbsc.org.uk">hello@lbsc.org.uk</a> as well</p>
+			<div id="openingHours" class="lbsc__form-info-box">
+				<h3>Club Opening Times</h3>
+
+				<p>Monday-Friday</p>
+				<p>9.00-23.00</p>
+
+				<p>Saturday & Sunday<p>
+				<p>9.00-17.00</p>
 			</div>
 		</div>
 	</div>
 
 		<div class="footer__container padding--left--large padding--right--large">
-		<div class="footer__image">
-			<img class="footer__image" src="../assets/images/lbsc-header-logo.gif" alt="Logo for Littlehampton Badminton and Squash Club">
-		</div>
-
 		<div class="footer__navigation">
 			<div class="footer__navigation-item">
 				<h3>Badminton</h3>
@@ -206,11 +248,6 @@
 			</div>
 		</div>
 
-		<div class="footer__social-icons margin--top--medium">
-			<a href="#" class="fa fa-facebook"></a>
-			<a href="#" class="fa fa-twitter"></a>
-		</div>
-
 		<hr class="separator" />
 
 		<div class="footer__copyright margin--top--medium">
@@ -219,7 +256,7 @@
 	</div>
 
 	<div id="callButton">
-		<a href="tel:01903 713217" class="card-cta-button call__button-background">Get in touch with us!</a>
+		<a href="tel:01903 713217" class="card-cta-button call__button-background"><i class="fas fa-comment-alt margin--right--small"></i>Get in touch with us!</a>
 	</div>
 </body>
 </html>
