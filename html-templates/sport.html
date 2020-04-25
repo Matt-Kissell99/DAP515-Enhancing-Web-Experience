@@ -4,9 +4,13 @@
 <head>
     <title>LBSC | Badminton</title>
     <link rel="stylesheet" type="text/css" href="../dist/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script type="application/javascript" src="../dist/javascript/filter.js"></script>
     <script type="text/javascript" src="../dist/javascript/nav-menu.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="application/javascript" src="../dist/javascript/filter.js"></script>
 </head>
 
@@ -51,24 +55,6 @@
 </div>
 
 <div id="homeContainer" class="lbsc__form-container two-cols-container">
-    <div id="sidebarContent" class="sidebar-col">
-        <div id="generalEnquiries" class="lbsc__form-info-box">
-            <h3>General Enquiries</h3>
-            <p>Should you require any information regarding how the club operates and what services are provided please don't hesitate to get in contact with us.</p>
-            <p>General enquiries can be found by calling <a href="tel:01903 713217">01903 713217</a>.</p>
-            <p>Alternatively, you can email <a href="mailto:hello@lbsc.org.uk">hello@lbsc.org.uk</a> as well</p>
-        </div>
-
-        <div id="openingHours" class="lbsc__form-info-box">
-            <h3>Club Opening Times</h3>
-
-            <p>Monday-Friday</p>
-            <p>9.00-23.00</p>
-
-            <p>Saturday & Sunday<p>
-            <p>9.00-17.00</p>
-        </div>
-    </div>
 
     <div id="formContainer" class="lbsc__form-content two-cols-container content-col">
         <div>
@@ -305,6 +291,55 @@
             </div>
         </div>
     </div>
+
+    <div id="sidebarContent" class="sidebar-col">
+        <div id="membership" class="lbsc__form-info-box">
+            <h3>Want to become a member?</h3>
+            <p>We offer a range of memberships to meet your needs</p>
+
+            <p>We have a dedicated membership for badminton players</p>
+            <a href="" class="card-cta-button call__button-background">
+                <i class="fas fa-user-plus margin--right--small"></i>
+                Apply now
+            </a>
+        </div>
+
+        <div id="generalEnquiries" class="lbsc__form-info-box">
+            <h3>General Enquiries</h3>
+            <p>Should you require any information regarding how the club operates and what services are provided please don't hesitate to get in contact with us.</p>
+            <p>General enquiries can be answered by calling us</p>
+
+            <a href="tel:01903 713217" class="card-cta-button call__button-background">
+                <i class="fas fa-phone-alt margin--right--small"></i>
+                Call the Club
+            </a>
+            <p>Alternatively, you can email as well at anytime</p>
+            <a href="mailto:hello@lbsc.org.uk" class="card-cta-button call__button-background">
+                <i class="fas fa-envelope margin--right--small"></i>
+                Email the Club
+            </a>
+        </div>
+
+        <div id="openingHours" class="lbsc__form-info-box">
+            <h3>Club Opening Times</h3>
+
+            <p>Monday-Friday</p>
+            <p>9.00-23.00</p>
+
+            <p>Saturday & Sunday<p>
+            <p>9.00-17.00</p>
+        </div>
+
+        <div id="socialPages" class="lbsc__form-info-box">
+            <h3>Follow us on Social Media</h3>
+            <p>The club has social media pages for you to follow</p>
+            <p>Following these pages gives you the best chance to keep up to date on all things social</p>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter margin--left--medium"></i>
+            <i class="fab fa-instagram-square margin--left--medium"></i>
+            <i class="fab fa-youtube margin--left--medium"></i>
+        </div>
+    </div>
 </div>
 
 <div class="footer__container padding--left--large padding--right--large">
@@ -346,11 +381,6 @@
         </div>
     </div>
 
-    <div class="footer__social-icons margin--top--medium">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-    </div>
-
     <hr class="separator" />
 
     <div class="footer__copyright margin--top--medium">
@@ -359,7 +389,7 @@
 </div>
 
 <div id="callButton">
-    <a href="tel:01903 713217" class="card-cta-button call__button-background">Get in touch with us!</a>
+    <a href="tel:01903 713217" class="card-cta-button call__button-background"><i class="fas fa-comment-alt margin--right--small"></i>Get in touch with us!</a>
 </div>
 </body>
 </html>
