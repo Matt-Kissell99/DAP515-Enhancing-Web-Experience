@@ -45,6 +45,10 @@
   width:100%;
 }
 
+.lbsc__form label {
+  font-size: 18px;
+}
+
 .lbsc__form-section {
   border: 1px solid #bbb;
   border-radius: 4px;
@@ -77,6 +81,15 @@
   margin-top: $spacing-small;
   margin-bottom: $spacing-small;
 }
+
+ .checkbox-container input[type="checkbox"] {
+   display:inline-block;
+   width: auto !important;
+ }
+
+ .checkbox-container label {
+   display:inline;
+ }
 
 @media only screen and (min-width: 720px) {
   .two-cols-container .content-col {
