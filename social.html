@@ -14,6 +14,16 @@
         gtag('config', 'UA-164529717-1');
     </script>
 
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-164529717-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
     <link rel="stylesheet" type="text/css" href="dist/styles.css">
     <script type="text/javascript" src="dist/javascript/nav-menu.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
@@ -26,16 +36,16 @@
 <div id="mobileNavigation" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
-        <a href="index.html">Home</a>
-        <a href="sport.html">Badminton</a>
-        <a href="sport.html">Squash</a>
-        <a href="sport.html">Table Tennis</a>
-        <a href="sport.html">Snooker</a>
-        <a href="sport.html">Darts</a>
-        <a href="#leagues">Leagues</a>
-        <a href="social.html">Social</a>
-        <a href="#facilities">Facilities</a>
-        <a href="#about">About</a>
+        <a href="index.html" onclick="ga('send', 'event', 'navigation', 'click', 'home')">Home</a>
+        <a href="sport.html" onclick="ga('send', 'event', 'navigation', 'click', 'badminton')">Badminton</a>
+        <a href="sport.html" onclick="ga('send', 'event', 'navigation', 'click', 'squash')">Squash</a>
+        <a href="sport.html" onclick="ga('send', 'event', 'navigation', 'click', 'table tennis')">Table Tennis</a>
+        <a href="sport.html" onclick="ga('send', 'event', 'navigation', 'click', 'snooker')">Snooker</a>
+        <a href="sport.html" onclick="ga('send', 'event', 'navigation', 'click', 'darts')">Darts</a>
+        <a href="#leagues" onclick="ga('send', 'event', 'navigation', 'click', 'leagues')">Leagues</a>
+        <a href="social.html" onclick="ga('send', 'event', 'navigation', 'click', 'social')">Social</a>
+        <a href="form.html" onclick="ga('send', 'event', 'navigation', 'click', 'hire form')">Facilities</a>
+        <a href="#about" onclick="ga('send', 'event', 'navigation', 'click', 'about')">About</a>
     </div>
 </div>
 
@@ -45,16 +55,16 @@
     </div>
     <div id="headerNavigation" class="topnav">
         <div>
-            <a href="index.html">Home</a>
-            <a href="sport.html">Badminton</a>
-            <a href="sport.html">Squash</a>
-            <a href="sport.html">Table Tennis</a>
-            <a href="sport.html">Snooker</a>
-            <a href="sport.html">Darts</a>
-            <a href="#leagues">Leagues</a>
-            <a href="social.html">Social</a>
-            <a href="form.html">Facilities</a>
-            <a href="#about">About</a>
+            <a href="index.html" onclick="ga('send', 'event', 'navigation', 'click', 'home')">Home</a>
+            <a href="sport.html" onclick="ga('send', 'event', 'navigation', 'click', 'badminton')">Badminton</a>
+            <a href="sport.html" onclick="ga('send', 'event', 'navigation', 'click', 'squash')">Squash</a>
+            <a href="sport.html" onclick="ga('send', 'event', 'navigation', 'click', 'table tennis')">Table Tennis</a>
+            <a href="sport.html" onclick="ga('send', 'event', 'navigation', 'click', 'snooker')">Snooker</a>
+            <a href="sport.html" onclick="ga('send', 'event', 'navigation', 'click', 'darts')">Darts</a>
+            <a href="#leagues" onclick="ga('send', 'event', 'navigation', 'click', 'leagues')">Leagues</a>
+            <a href="social.html" onclick="ga('send', 'event', 'navigation', 'click', 'social')">Social</a>
+            <a href="form.html" onclick="ga('send', 'event', 'navigation', 'click', 'hire form')">Facilities</a>
+            <a href="#about" onclick="ga('send', 'event', 'navigation', 'click', 'about')">About</a>
             <a href="javascript:void(0);" class="icon" onclick="openNav()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -73,11 +83,11 @@
                     <h2>Upcoming Events:</h2>
 
                     <div class="social__filter">
-                        <button id="allButton" class="social__button call__button-background" >All</button>
-                        <button id="badmintonButton" class="social__button">Badminton</button>
-                        <button id="squashButton" class="social__button">Squash</button>
-                        <button id="tableTennisButton" class="social__button">Table Tennis</button>
-                        <button id="dartsButton" class="social__button">Darts</button>
+                        <button id="allButton" class="social__button call__button-background" onclick="ga('send', 'event', 'filter', 'select', 'all sport events')">All</button>
+                        <button id="badmintonButton" class="social__button" onclick="ga('send', 'event', 'filter', 'select', 'badminton sport events')">Badminton</button>
+                        <button id="squashButton" class="social__button" onclick="ga('send', 'event', 'filter', 'select', 'squash sport events')">Squash</button>
+                        <button id="tableTennisButton" class="social__button" onclick="ga('send', 'event', 'filter', 'select', 'table tennis sport events')">Table Tennis</button>
+                        <button id="dartsButton" class="social__button" onclick="ga('send', 'event', 'filter', 'select', 'dart sport events')">Darts</button>
                     </div>
 
                     <div id="upcomingEvents" class="margin--top--medium full-width">
@@ -92,7 +102,7 @@
                                             <p><strong>Time:</strong> 4pm - 9pm</p>
                                             <p><strong>Eligibility:</strong> Anyone</p>
                                             <p><strong>Entry fee:</strong> &#163;2</p>
-                                            <button class="social__event-button">Find out more</button>
+                                            <button class="social__event-button" onclick="ga('send', 'event', 'social', 'click', 'darts event')">Find out more</button>
                                         </div>
                                     </div>
 
@@ -104,7 +114,7 @@
                                             <p><strong>Time:</strong> 4pm - 9pm</p>
                                             <p><strong>Eligibility:</strong> Anyone</p>
                                             <p><strong>Entry fee:</strong> &#163;5</p>
-                                            <button class="social__event-button">Find out more</button>
+                                            <button class="social__event-button" onclick="ga('send', 'event', 'social', 'click', 'badminton event')">Find out more</button>
                                         </div>
                                     </div>
 
@@ -116,7 +126,7 @@
                                             <p><strong>Time:</strong> 2pm - 5pm</p>
                                             <p><strong>Eligibility:</strong> Members</p>
                                             <p><strong>Entry fee:</strong> &#163;3</p>
-                                            <button class="social__event-button">Find out more</button>
+                                            <button class="social__event-button" onclick="ga('send', 'event', 'social', 'click', 'squash event')">Find out more</button>
                                         </div>
                                     </div>
 
@@ -128,7 +138,7 @@
                                             <p><strong>Time:</strong> 9am - 3pm</p>
                                             <p><strong>Eligibility:</strong> Anyone</p>
                                             <p><strong>Entry fee:</strong> &#163;4.50</p>
-                                            <button class="social__event-button">Find out more</button>
+                                            <button class="social__event-button" onclick="ga('send', 'event', 'social', 'click', 'table tennis event')">Find out more</button>
                                         </div>
                                     </div>
 
@@ -140,19 +150,19 @@
                                             <p><strong>Time:</strong> 4pm - 9pm</p>
                                             <p><strong>Eligibility:</strong> Anyone</p>
                                             <p><strong>Entry fee:</strong> &#163;2</p>
-                                            <button class="social__event-button">Find out more</button>
+                                            <button class="social__event-button" onclick="ga('send', 'event', 'social', 'click', 'darts event')">Find out more</button>
                                         </div>
                                     </div>
 
                                     <div class="flex-card center">
                                         <img class="social__calendar-icon" src="assets/images/calendar.jpg">
-                                        <h3>Darts Tournament</h3>
+                                        <h3>Darts members event</h3>
                                         <div>
-                                            <p><strong>Date:</strong> 22nd June 2020</p>
-                                            <p><strong>Time:</strong> 4pm - 9pm</p>
+                                            <p><strong>Date:</strong> 29th August 2020</p>
+                                            <p><strong>Time:</strong> 2pm - 9pm</p>
                                             <p><strong>Eligibility:</strong> Anyone</p>
                                             <p><strong>Entry fee:</strong> &#163;2</p>
-                                            <button class="social__event-button">Find out more</button>
+                                            <button class="social__event-button" onclick="ga('send', 'event', 'social', 'click', 'darts event')">Find out more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -228,12 +238,12 @@
             <p>Should you require any information regarding how the club operates and what services are provided please don't hesitate to get in contact with us.</p>
             <p>General enquiries can be answered by calling us</p>
 
-            <a href="tel:01903 713217" class="card-cta-button call__button-background">
+            <a href="tel:01903 713217" class="card-cta-button call__button-background" onclick="ga('send', 'event', 'contact', 'click', 'sidebar call button')">
                 <i class="fas fa-phone-alt margin--right--small"></i>
                 Call the Club
             </a>
             <p>Alternatively, you can email as well at anytime</p>
-            <a href="mailto:hello@lbsc.org.uk" class="card-cta-button call__button-background">
+            <a href="mailto:hello@lbsc.org.uk" class="card-cta-button call__button-background" onclick="ga('send', 'event', 'contact', 'click', 'sidebar email button')">
                 <i class="fas fa-envelope margin--right--small"></i>
                 Email the Club
             </a>
@@ -256,36 +266,36 @@
         <div class="footer__navigation-item">
             <h3>Badminton</h3>
             <ul>
-                <li><a href="/">Sessions</a></li>
-                <li><a href="/">Competitive Play</a></li>
-                <li><a href="/">Coaching</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'badminton sessions')">Sessions</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'competitive badminton')">Competitive Play</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'badminton coaching')">Coaching</a></li>
             </ul>
         </div>
 
         <div class="footer__navigation-item">
             <h3>Squash</h3>
             <ul>
-                <li><a href="/">Sessions</a></li>
-                <li><a href="/">Competitive Play</a></li>
-                <li><a href="/">Coaching</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'squash sessions')">Sessions</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'competitive squash')">Competitive Play</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'squash coaching')">Coaching</a></li>
             </ul>
         </div>
 
         <div class="footer__navigation-item">
             <h3>Social</h3>
             <ul>
-                <li><a href="/">Bar hire</a></li>
-                <li><a href="/">Social events</a></li>
-                <li><a href="/">Social pictures</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'bar hire')">Bar hire</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'social events')">Social events</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'social pictures')">Social pictures</a></li>
             </ul>
         </div>
 
         <div class="footer__navigation-item">
             <h3>About us</h3>
             <ul>
-                <li><a href="/">The club</a></li>
-                <li><a href="/">Location</a></li>
-                <li><a href="/">Contact us</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'club details')">The club</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'location')">Location</a></li>
+                <li><a href="#" onclick="ga('send', 'event', 'footer', 'click', 'contact us')">Contact us</a></li>
             </ul>
         </div>
     </div>
@@ -298,7 +308,9 @@
 </div>
 
 <div id="callButton">
-    <a href="tel:01903 713217" class="card-cta-button call__button-background"><i class="fas fa-comment-alt margin--right--small"></i>Get in touch with us!</a>
+    <a href="tel:01903 713217" class="card-cta-button call__button-background" onclick="ga('send', 'event', 'contact', 'click', 'persistent call button')">
+        <i class="fas fa-comment-alt margin--right--small"></i>Get in touch with us!
+    </a>
 </div>
 </body>
 </html>
