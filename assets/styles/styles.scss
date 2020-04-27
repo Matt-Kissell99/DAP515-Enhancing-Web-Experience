@@ -3,35 +3,19 @@
 // http://bradfrost.com/blog/post/atomic-web-design/
 //
 // Atomic design is methodology for creating design systems. There are five distinct levels in atomic design:
-//
-// - Atoms
-// - Molecules
-// - Organisms
-// - Templates
-// - Pages
 
 
-// Variables
+
 @import './1-variables/base-variables';
 
-// Base
 @import './3-base/base';
 
-// Utilities
 @import './2-utilities/utilities';
 
-// 1 Atoms
 @import './4-atomic/1-atoms/atoms';
 
-// 2 Molecules
 @import './4-atomic/2-molecules/molecules';
 
-// 3 Organisms
 @import './4-atomic/3-organisms/organisms';
 
-// 4 Templates
-// Nothing to see here...
-
-// 5 Pages
-@import './4-atomic/5-pages/pages';
 

@@ -1,4 +1,3 @@
-/* UTILITIES - margins */
 .margin--top--small {
   margin-top: $spacing-small;
 }
@@ -21,7 +20,7 @@
   margin-bottom: $spacing-large;
 }
 
-/* UTILITIES - margin-left & right */
+
 .margin--left--small {
   margin-left: $spacing-small;
 }
@@ -41,7 +40,6 @@
   margin-right: $spacing-large;
 }
 
-/* UTILITIES - padding top & bottom */
 .padding--top--small {
   padding-top: $spacing-small;
 }
@@ -61,7 +59,6 @@
   padding-bottom: $spacing-large;
 }
 
-/* UTILITIES - padding right and left */
 .padding--left--small {
   padding-left: $spacing-small;
 }
@@ -81,8 +78,6 @@
   padding-right: $spacing-large;
 }
 
-
-/* UTILITIES - padding */
 .padding--small {
   padding: $spacing-small;
 }
